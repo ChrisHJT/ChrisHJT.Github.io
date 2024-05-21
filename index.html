@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>需求谁来做</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>需求谁来做</h1>
+        <p class="rule">规则说明：转到谁就是谁哈哈</p>
+        <div class="slot-machine">
+            <div class="reels">
+                <div class="reel" id="reel1">?</div>
+                <div class="reel" id="reel2">?</div>
+                <div class="reel" id="reel3">?</div>
+            </div>
+        </div>
+        <button class="spin-button" id="spinButton">SPIN</button>
+        <div class="records">
+            <h2>中奖记录</h2>
+            <ul id="recordList">
+                <!-- 中奖记录将显示在这里 -->
+            </ul>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
