@@ -1,4 +1,3 @@
-// scripts.js
 const names = ["张家俊", "叶慧丽", "徐小英", "何景涛", "吴基杰"]; // 添加“吴基杰”
 const spinButton = document.getElementById("spinButton");
 const reels = [
